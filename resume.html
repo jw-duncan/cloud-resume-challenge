@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resume — Your Name</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ── NAV ── -->
+  <nav class="nav">
+    <span class="nav-logo">YN</span>
+    <div class="nav-links">
+      <a href="index.html#projects">Projects</a>
+      <a href="index.html" class="nav-cta">← Home</a>
+    </div>
+  </nav>
+
+  <!-- ── RESUME ── -->
+  <div class="resume-page">
+    <div class="resume-wrap">
+
+      <a href="index.html" class="resume-back">
+        ← Back to home
+      </a>
+
+      <div class="paper">
+
+        <!-- Header -->
+        <div class="r-header">
+          <h1>Your Full Name</h1>
+          <div class="r-contact">
+            <span>Austin, TX</span>
+            <span>(555) 123-4567</span>
+            <span><a href="mailto:you@email.com">you@email.com</a></span>
+            <span><a href="https://yourcloudresume.com" target="_blank">yourcloudresume.com</a></span>
+            <span><a href="https://linkedin.com/in/yourhandle" target="_blank">linkedin.com/in/yourhandle</a></span>
+            <span><a href="https://github.com/yourgithub" target="_blank">github.com/yourgithub</a></span>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div class="r-section">
+          <div class="r-section-title">Education</div>
+          <div class="r-entry">
+            <div>
+              <div class="r-org">University of Texas at Austin</div>
+              <div class="r-edu-degree">Bachelor of Science in Computer Science</div>
+              <div class="r-edu-detail">GPA: 3.8 / 4.0 &nbsp;·&nbsp; Dean's List (4 semesters)</div>
+            </div>
+            <div class="r-entry-right">
+              <div>Austin, TX</div>
+              <div>May 2023</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience -->
+        <div class="r-section">
+          <div class="r-section-title">Experience</div>
+
+          <div class="r-entry">
+            <div>
+              <div class="r-org">Amazon Web Services</div>
+              <div class="r-role">Cloud Solutions Engineer</div>
+            </div>
+            <div class="r-entry-right">
+              <div>Seattle, WA</div>
+              <div>Jun 2023 – Present</div>
+            </div>
+          </div>
+          <ul class="r-bullets">
+            <li>Architected serverless data-ingestion pipeline using AWS Lambda, S3, and DynamoDB, reducing processing latency by 40% and saving $12K/year in compute costs.</li>
+            <li>Led migration of three monolithic applications to containerized microservices on Amazon ECS, improving deployment frequency from monthly to daily releases.</li>
+            <li>Implemented infrastructure-as-code with AWS CloudFormation and Terraform across 15 production stacks, reducing manual provisioning time by 70%.</li>
+            <li>Collaborated with security team to enforce least-privilege IAM policies and automated compliance checks via AWS Config, achieving SOC 2 Type II readiness.</li>
+          </ul>
+
+          <div class="r-entry" style="margin-top:.75rem">
+            <div>
+              <div class="r-org">Acme Technology Solutions</div>
+              <div class="r-role">Software Development Intern</div>
+            </div>
+            <div class="r-entry-right">
+              <div>Austin, TX</div>
+              <div>May 2022 – Aug 2022</div>
+            </div>
+          </div>
+          <ul class="r-bullets">
+            <li>Built REST API endpoints in Python (FastAPI) integrated with PostgreSQL, serving 10K+ daily requests with 99.9% uptime.</li>
+            <li>Developed CI/CD pipeline with GitHub Actions that automated testing and deployment to AWS Elastic Beanstalk, cutting release time from 2 hours to 15 minutes.</li>
+            <li>Created internal dashboard with React and AWS Amplify to visualize real-time KPIs for the operations team.</li>
+          </ul>
+        </div>
+
+        <!-- Projects -->
+        <div class="r-section">
+          <div class="r-section-title">Projects</div>
+
+          <div class="r-entry">
+            <div>
+              <div class="r-org">Cloud Resume Challenge &nbsp;<span style="font-weight:400;font-style:italic;font-size:.84rem">— <a href="https://yourcloudresume.com" target="_blank">yourcloudresume.com</a></span></div>
+            </div>
+            <div class="r-entry-right">2024</div>
+          </div>
+          <ul class="r-bullets">
+            <li>Deployed static HTML/CSS resume to Amazon S3 with CloudFront CDN and HTTPS via AWS Certificate Manager.</li>
+            <li>Built visitor-counter backend with API Gateway, Lambda (Python), and DynamoDB; frontend fetches live count via JavaScript fetch API.</li>
+            <li>Automated full deployment pipeline using GitHub Actions for CI/CD and Terraform for infrastructure management.</li>
+          </ul>
+
+          <div class="r-entry" style="margin-top:.75rem">
+            <div>
+              <div class="r-org">Serverless Image Processing API</div>
+            </div>
+            <div class="r-entry-right">2023</div>
+          </div>
+          <ul class="r-bullets">
+            <li>Designed event-driven image resizing service using S3 triggers, Lambda, and Rekognition for automatic content moderation.</li>
+            <li>Reduced image delivery time by 55% through CloudFront caching and adaptive format selection (WebP / AVIF).</li>
+          </ul>
+        </div>
+
+        <!-- Skills -->
+        <div class="r-section">
+          <div class="r-section-title">Skills</div>
+          <div class="r-skills-grid">
+            <div class="r-skill-cat">Cloud / AWS</div>
+            <div class="r-skill-list">Lambda, S3, CloudFront, DynamoDB, RDS, API Gateway, ECS, IAM, CloudFormation, Route 53, SQS, SNS</div>
+            <div class="r-skill-cat">Languages</div>
+            <div class="r-skill-list">Python, JavaScript / TypeScript, Bash, SQL, Go (familiar)</div>
+            <div class="r-skill-cat">DevOps / IaC</div>
+            <div class="r-skill-list">Terraform, GitHub Actions, Docker, Kubernetes (basic), Ansible</div>
+            <div class="r-skill-cat">Frameworks</div>
+            <div class="r-skill-list">FastAPI, Node.js, React, Flask</div>
+            <div class="r-skill-cat">Other</div>
+            <div class="r-skill-list">Linux, Git, REST APIs, Agile / Scrum, Technical Documentation</div>
+          </div>
+        </div>
+
+        <!-- Certifications -->
+        <div class="r-section">
+          <div class="r-section-title">Certifications</div>
+          <div class="r-cert-row">
+            <span class="r-cert-name">AWS Certified Solutions Architect – Associate</span>
+            <span class="r-cert-date">Amazon Web Services &nbsp;·&nbsp; 2024</span>
+          </div>
+          <div class="r-cert-row">
+            <span class="r-cert-name">AWS Certified Developer – Associate</span>
+            <span class="r-cert-date">Amazon Web Services &nbsp;·&nbsp; 2023</span>
+          </div>
+          <div class="r-cert-row">
+            <span class="r-cert-name">HashiCorp Certified: Terraform Associate</span>
+            <span class="r-cert-date">HashiCorp &nbsp;·&nbsp; 2023</span>
+          </div>
+        </div>
+
+      </div><!-- /.paper -->
+    </div><!-- /.resume-wrap -->
+  </div><!-- /.resume-page -->
+
+</body>
+</html>

@@ -29,4 +29,4 @@ DynamoDB
 
 ## Architecture
 
-![Architecture Diagram](architecture.png)
+![Architecture Diagram](assets/architecture.png)

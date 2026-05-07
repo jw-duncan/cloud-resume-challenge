@@ -27,6 +27,7 @@ AWS Lambda (Python)
       ↓
 DynamoDB
 
-## Architecture
+```
+
 
 ![Architecture](https://raw.githubusercontent.com/jw-duncan/cloud-resume-challenge/main/assets/architecture.png)

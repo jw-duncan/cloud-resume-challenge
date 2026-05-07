@@ -26,3 +26,7 @@ API Gateway
 AWS Lambda (Python)
       ↓
 DynamoDB
+
+## Architecture
+
+![Architecture Diagram](architecture.png)

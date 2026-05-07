@@ -29,4 +29,4 @@ DynamoDB
 
 ## Architecture
 
-![Architecture Diagram](assets/architecture.png)
+![Architecture](https://raw.githubusercontent.com/jw-duncan/cloud-resume-challenge/main/assets/architecture.png)
